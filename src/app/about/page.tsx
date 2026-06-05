@@ -3,7 +3,6 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { useEngineStore } from "@/store/engineStore";
-import LeadershipTeam from "@/components/sections/LeadershipTeam";
 
 const timeline = [
   { year: "2015", title: "The Monolith Era", desc: "Founded to untangle extreme technical debt in legacy financial mainframes." },
@@ -121,7 +120,6 @@ export default function AboutPage() {
              </div>
            </div>
 
-           <LeadershipTeam />
 
            <div className="px-6 mb-8">
              <h2 className="font-mono text-xs text-[#10B981] tracking-widest uppercase mb-6 border-b border-[#10B981]/20 pb-2">The Evolution Engine</h2>

@@ -11,6 +11,7 @@ import ProofOfExecution from "@/components/sections/ProofOfExecution";
 import IndustriesPreview from "@/components/sections/IndustriesPreview";
 import CaseStudiesPreview from "@/components/sections/CaseStudiesPreview";
 import FAQSection from "@/components/sections/FAQSection";
+import LeadershipTeam from "@/components/sections/LeadershipTeam";
 import Footer from "@/components/global/Footer";
 import { useEngineStore } from "@/store/engineStore";
 
@@ -32,6 +33,7 @@ export default function Home() {
       <ProofOfExecution />
       <IndustriesPreview />
       <CaseStudiesPreview />
+      <LeadershipTeam />
       <FAQSection />
       <Footer />
     </div>
