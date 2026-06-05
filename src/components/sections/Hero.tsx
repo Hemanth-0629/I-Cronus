@@ -54,11 +54,6 @@ export default function Hero() {
               </Link>
             </div>
             
-            <div className="flex items-center gap-4 mb-16">
-              <Link href="https://erp.ecomsmart.world/form-builder/d11ad164-b3f5-4ebf-a2f3-e94cc3cc07c2-1779094293" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-[#00D4FF] hover:text-white uppercase tracking-widest border border-[#00D4FF]/30 hover:border-white px-5 py-2.5 rounded transition-all flex items-center gap-2">
-                Apply For Internships <ArrowRight size={14} />
-              </Link>
-            </div>
 
             {/* Proof Strip */}
             <div className="pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -83,6 +78,22 @@ export default function Hero() {
           <motion.div style={{ y, opacity }} className="absolute inset-0">
             <EnterpriseCommandNetwork />
           </motion.div>
+          
+          {/* Apply For Internships - Bottom Right */}
+          <div className="absolute bottom-4 right-4 sm:bottom-8 sm:right-8 z-20">
+            <Link 
+              href="https://erp.ecomsmart.world/form-builder/d11ad164-b3f5-4ebf-a2f3-e94cc3cc07c2-1779094293" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="group flex items-center gap-3 bg-[#020617]/80 backdrop-blur-md border border-[#00D4FF]/30 hover:border-[#00D4FF] px-6 py-3 rounded-lg shadow-[0_0_20px_rgba(0,212,255,0.1)] hover:shadow-[0_0_30px_rgba(0,212,255,0.25)] transition-all duration-300"
+            >
+              <div className="w-2 h-2 rounded-full bg-[#00D4FF] animate-pulse" />
+              <span className="text-xs font-mono text-white uppercase tracking-widest group-hover:text-[#00D4FF] transition-colors">
+                Apply For Internships
+              </span>
+              <ArrowRight size={14} className="text-[#A0A0B8] group-hover:text-[#00D4FF] group-hover:translate-x-1 transition-all" />
+            </Link>
+          </div>
         </div>
 
       </div>

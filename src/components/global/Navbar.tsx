@@ -30,12 +30,12 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
           <Magnetic strength={0.15}>
             <Link href="/" className="flex items-center group">
-              <Logo width={150} height={38} className="text-white" />
+              <Logo width={110} height={28} className="text-white" />
             </Link>
           </Magnetic>
 
           <nav className="hidden md:flex items-center gap-8">
-            {["Solutions", "Services", "Industries", "Case Studies", "Insights", "About", "Contact"].map((item) => (
+            {["Solutions", "Services", "Industries", "Case Studies", "Insights", "About", "Careers", "Contact"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase().replace(" ", "-")}`}
@@ -70,7 +70,7 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="fixed inset-0 top-20 z-40 bg-[#050816]/95 backdrop-blur-3xl md:hidden">
           <div className="flex flex-col p-6 gap-6">
-            {["Solutions", "Services", "Industries", "Case Studies", "Insights", "About", "Contact"].map((item) => (
+            {["Solutions", "Services", "Industries", "Case Studies", "Insights", "About", "Careers", "Contact"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase().replace(" ", "-")}`}
