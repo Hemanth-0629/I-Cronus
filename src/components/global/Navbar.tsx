@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, ArrowRight, Briefcase } from "lucide-react";
+import { Menu, X, ArrowRight, User } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import Magnetic from "@/components/ui/Magnetic";
 import Logo from "@/components/ui/Logo";
@@ -53,7 +53,7 @@ export default function Navbar() {
                 className="text-[#A0A0B8] hover:text-[#00D4FF] transition-colors p-2 flex items-center justify-center border border-white/5 rounded-full hover:bg-white/5"
                 title="Employee Login"
               >
-                <Briefcase size={18} />
+                <User size={18} />
               </button>
             </Magnetic>
           </div>
@@ -111,7 +111,7 @@ export default function Navbar() {
 
               <div className="p-8 text-center">
                 <div className="w-16 h-16 mx-auto bg-[#020617] border border-white/10 rounded-full flex items-center justify-center mb-6">
-                  <Briefcase className="text-[#8B5CF6]" size={24} />
+                  <User className="text-[#8B5CF6]" size={24} />
                 </div>
                 <h3 className="font-display text-2xl font-bold text-white uppercase mb-3">
                   Operations Portal<br/>Coming Soon
