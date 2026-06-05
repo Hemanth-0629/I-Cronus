@@ -29,7 +29,7 @@ export default function Logo({
         alt="i-Cronus Software Labs"
         width={typeof width === 'number' ? width : 240}
         height={typeof height === 'number' ? height : 60}
-        className="w-full h-auto object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.05)]"
+        className="w-full h-auto object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.05)] scale-90 translate-y-1.5"
         priority
       />
     </div>
