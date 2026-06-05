@@ -17,13 +17,13 @@ export default function LeadershipTeam() {
         
         {/* Shaik Maneesha */}
         <div className="bg-[#050816] border border-white/5 rounded-xl overflow-hidden relative group lg:scale-95 transition-all duration-500 hover:border-white/20">
-          <div className="aspect-[3/4] relative overflow-hidden bg-[#020617]">
+          <div className="relative overflow-hidden bg-[#050816]">
             <img 
               src="/team/shaik-maneesha.jpg" 
               alt="Shaik Maneesha" 
-              className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 ease-in-out mix-blend-luminosity group-hover:mix-blend-normal"
+              className="w-full h-auto transition-transform duration-700 ease-in-out group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-[#050816]/60 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-[#050816]/30 to-transparent" />
           </div>
           <div className="p-5 relative z-10 -mt-16">
             <p className="text-[#00D4FF] font-mono text-[9px] tracking-widest uppercase mb-1">ICS1113</p>
@@ -35,13 +35,13 @@ export default function LeadershipTeam() {
         {/* Gurram Hemanth (Featured) */}
         <div className="bg-[#050816] border border-[#00D4FF]/30 rounded-xl overflow-hidden relative group lg:scale-105 shadow-[0_0_30px_rgba(0,212,255,0.05)] z-20 transition-all duration-500 hover:shadow-[0_0_40px_rgba(0,212,255,0.1)] hover:border-[#00D4FF]/50">
           <div className="absolute inset-0 bg-gradient-to-b from-[#00D4FF]/5 to-transparent pointer-events-none" />
-          <div className="aspect-[3/4] relative overflow-hidden bg-[#020617]">
+          <div className="relative overflow-hidden bg-[#050816]">
             <img 
               src="/team/gurram-hemanth.jpg" 
               alt="Gurram Hemanth" 
-              className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 ease-in-out mix-blend-luminosity group-hover:mix-blend-normal"
+              className="w-full h-auto transition-transform duration-700 ease-in-out group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-[#050816]/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-[#050816]/30 to-transparent" />
           </div>
           <div className="p-6 relative z-10 -mt-20">
             <p className="text-[#00D4FF] font-mono text-[9px] tracking-widest uppercase mb-1 flex items-center gap-2">
@@ -66,13 +66,13 @@ export default function LeadershipTeam() {
 
         {/* Kallepalli Lakshmi Devi */}
         <div className="bg-[#050816] border border-white/5 rounded-xl overflow-hidden relative group lg:scale-95 transition-all duration-500 hover:border-white/20">
-          <div className="aspect-[3/4] relative overflow-hidden bg-[#020617]">
+          <div className="relative overflow-hidden bg-[#050816]">
             <img 
               src="/team/kallepalli-lakshmi.jpg" 
               alt="Kallepalli Lakshmi Devi" 
-              className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 ease-in-out mix-blend-luminosity group-hover:mix-blend-normal"
+              className="w-full h-auto transition-transform duration-700 ease-in-out group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-[#050816]/60 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-[#050816]/30 to-transparent" />
           </div>
           <div className="p-5 relative z-10 -mt-16">
             <p className="text-[#00D4FF] font-mono text-[9px] tracking-widest uppercase mb-1">ICS1121</p>
