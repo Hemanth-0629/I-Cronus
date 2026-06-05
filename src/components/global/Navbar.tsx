@@ -35,7 +35,7 @@ export default function Navbar() {
           </Magnetic>
 
           <nav className="hidden md:flex items-center gap-8">
-            {["Solutions", "Services", "Industries", "Case Studies", "Insights", "Resources", "About"].map((item) => (
+            {["Solutions", "Services", "Industries", "Case Studies", "Insights", "About", "Contact"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase().replace(" ", "-")}`}
@@ -56,11 +56,6 @@ export default function Navbar() {
                 <Briefcase size={18} />
               </button>
             </Magnetic>
-            <Magnetic strength={0.2}>
-              <Link href="/contact" className="btn-solid inline-flex items-center gap-2 !py-2.5 !px-5 !text-sm">
-                Initiate Contact <ArrowRight className="w-3.5 h-3.5" />
-              </Link>
-            </Magnetic>
           </div>
 
           <button
@@ -75,7 +70,7 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="fixed inset-0 top-20 z-40 bg-[#050816]/95 backdrop-blur-3xl md:hidden">
           <div className="flex flex-col p-6 gap-6">
-            {["Solutions", "Services", "Industries", "Case Studies", "Insights", "Resources", "About"].map((item) => (
+            {["Solutions", "Services", "Industries", "Case Studies", "Insights", "About", "Contact"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase().replace(" ", "-")}`}
@@ -85,9 +80,6 @@ export default function Navbar() {
                 {item}
               </Link>
             ))}
-            <Link href="/contact" onClick={() => setMobileOpen(false)} className="btn-solid text-center w-full mt-4">
-              Initiate Contact
-            </Link>
           </div>
         </div>
       )}
