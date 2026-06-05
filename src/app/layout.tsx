@@ -5,6 +5,7 @@ import CustomCursor from "@/components/ui/CustomCursor";
 import SmoothScroll from "@/components/global/SmoothScroll";
 import GlobalCanvas from "@/components/canvas/GlobalCanvas";
 import Navbar from "@/components/global/Navbar";
+import FloatingWidgets from "@/components/global/FloatingWidgets";
 import FloatingContactDock from "@/components/ui/FloatingContactDock";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             {children}
           </main>
         </SmoothScroll>
+        <FloatingWidgets />
         <FloatingContactDock />
       </body>
     </html>

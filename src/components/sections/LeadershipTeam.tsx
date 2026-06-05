@@ -17,11 +17,11 @@ export default function LeadershipTeam() {
         
         {/* Shaik Maneesha */}
         <div className="bg-[#050816] border border-white/5 rounded-xl overflow-hidden relative group lg:scale-95 transition-all duration-500 hover:border-white/20">
-          <div className="aspect-[4/5] relative overflow-hidden bg-[#050816]">
+          <div className="relative overflow-hidden bg-[#050816]">
             <img 
               src="/team/shaik-maneesha.jpg" 
               alt="Shaik Maneesha" 
-              className="w-full h-full object-cover object-top transition-transform duration-700 ease-in-out group-hover:scale-105"
+              className="w-full h-auto transition-transform duration-700 ease-in-out group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-[#050816]/30 to-transparent" />
           </div>
@@ -35,11 +35,11 @@ export default function LeadershipTeam() {
         {/* Gurram Hemanth (Featured) */}
         <div className="bg-[#050816] border border-[#00D4FF]/30 rounded-xl overflow-hidden relative group lg:scale-105 shadow-[0_0_30px_rgba(0,212,255,0.05)] z-20 transition-all duration-500 hover:shadow-[0_0_40px_rgba(0,212,255,0.1)] hover:border-[#00D4FF]/50">
           <div className="absolute inset-0 bg-gradient-to-b from-[#00D4FF]/5 to-transparent pointer-events-none" />
-          <div className="aspect-[4/5] relative overflow-hidden bg-[#050816]">
+          <div className="relative overflow-hidden bg-[#050816]">
             <img 
               src="/team/gurram-hemanth.jpg" 
               alt="Gurram Hemanth" 
-              className="w-full h-full object-cover object-top transition-transform duration-700 ease-in-out group-hover:scale-105"
+              className="w-full h-auto transition-transform duration-700 ease-in-out group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-[#050816]/30 to-transparent" />
           </div>
@@ -66,11 +66,11 @@ export default function LeadershipTeam() {
 
         {/* Kallepalli Lakshmi Devi */}
         <div className="bg-[#050816] border border-white/5 rounded-xl overflow-hidden relative group lg:scale-95 transition-all duration-500 hover:border-white/20">
-          <div className="aspect-[4/5] relative overflow-hidden bg-[#050816]">
+          <div className="relative overflow-hidden bg-[#050816]">
             <img 
               src="/team/kallepalli-lakshmi.jpg" 
               alt="Kallepalli Lakshmi Devi" 
-              className="w-full h-full object-cover object-top transition-transform duration-700 ease-in-out group-hover:scale-105"
+              className="w-full h-auto transition-transform duration-700 ease-in-out group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-[#050816]/30 to-transparent" />
           </div>
