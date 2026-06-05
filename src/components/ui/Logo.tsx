@@ -27,14 +27,16 @@ export default function Logo({
   const isAnimated = variant === 'animated';
   const isMonochrome = variant === 'monochrome';
 
-  // Original Brand Colors
-  const orange = isMonochrome ? 'currentColor' : '#FF7600';
-  const blue = isMonochrome ? 'currentColor' : '#00B4FF';
-  const green = isMonochrome ? 'currentColor' : '#84D136';
+  // Exact Source of Truth Colors
+  const textColor = variant === 'monochrome' ? 'currentColor' : '#4597A5';
+  const subTextColor = variant === 'monochrome' ? 'currentColor' : '#4597A5';
+  const orange = isMonochrome ? 'currentColor' : '#FF8000';
+  const blue = isMonochrome ? 'currentColor' : '#14AAF5';
+  const green = isMonochrome ? 'currentColor' : '#7AD653';
 
   // Triangle SVG paths (perfect equilateral pointing UP centered at 0,0)
   // Base length 14, Height 12.12
-  const trianglePath = "M 0,-6.06 L 7,6.06 L -7,6.06 Z";
+  const trianglePath = "M 0,-8 L 9,8 L -9,8 Z";
 
   const Triangles = () => (
     <g className="logo-triangles">
@@ -42,24 +44,24 @@ export default function Logo({
       <path 
         d={trianglePath} 
         fill={blue} 
-        transform="translate(140, 22) rotate(30)" 
-        className={`origin-[140px_22px] transition-transform duration-500 hover:scale-110 ${isAnimated ? 'animate-pulse' : ''}`}
+        transform="translate(132, 18) rotate(30)" 
+        className={`origin-[132px_18px] transition-transform duration-500 hover:scale-110 ${isAnimated ? 'animate-pulse' : ''}`}
         style={isAnimated ? { animationDelay: '0ms' } : {}}
       />
-      {/* Green Triangle (Bottom Right) */}
+      {/* Green Triangle (Right) */}
       <path 
         d={trianglePath} 
         fill={green} 
-        transform="translate(158, 28) rotate(-30) scale(1.1)" 
-        className={`origin-[158px_28px] transition-transform duration-500 hover:scale-110 ${isAnimated ? 'animate-pulse' : ''}`}
+        transform="translate(148, 24) rotate(-20) scale(1.15)" 
+        className={`origin-[148px_24px] transition-transform duration-500 hover:scale-110 ${isAnimated ? 'animate-pulse' : ''}`}
         style={isAnimated ? { animationDelay: '200ms' } : {}}
       />
-      {/* Orange Triangle (Top Right) */}
+      {/* Orange Triangle (Top) */}
       <path 
         d={trianglePath} 
         fill={orange} 
-        transform="translate(156, 8) rotate(150) scale(1.2)" 
-        className={`origin-[156px_8px] transition-transform duration-500 hover:scale-110 ${isAnimated ? 'animate-pulse' : ''}`}
+        transform="translate(145, 6) rotate(145) scale(1.1)" 
+        className={`origin-[145px_6px] transition-transform duration-500 hover:scale-110 ${isAnimated ? 'animate-pulse' : ''}`}
         style={isAnimated ? { animationDelay: '400ms' } : {}}
       />
     </g>
@@ -88,25 +90,25 @@ export default function Logo({
         <text 
           x="0" 
           y="34" 
-          fontFamily="Inter, system-ui, -apple-system, sans-serif" 
-          fontSize="36" 
-          fontWeight="600" 
+          fontFamily="'Quicksand', 'Nunito', 'Varela Round', sans-serif" 
+          fontSize="42" 
+          fontWeight="500" 
           fill={textColor} 
-          letterSpacing="-0.04em"
+          letterSpacing="0.02em"
         >
-          i<tspan fill={brandTeal}>-</tspan>cronus
+          i-cronus
         </text>
         
         {/* Sub-brand */}
         {variant !== 'compact' && (
           <text 
             x="36" 
-            y="48" 
-            fontFamily="Inter, system-ui, -apple-system, sans-serif" 
-            fontSize="10" 
-            fontWeight="500" 
+            y="52" 
+            fontFamily="'Quicksand', 'Nunito', 'Varela Round', sans-serif" 
+            fontSize="14" 
+            fontWeight="400" 
             fill={subTextColor} 
-            letterSpacing="0.02em" 
+            letterSpacing="0.03em" 
           >
             Software Labs
           </text>

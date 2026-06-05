@@ -1,17 +1,9 @@
-import type { Metadata } from "next";
-import CareersPageClient from "@/components/pages/CareersPageClient";
+import React from 'react';
+import CareersPageClient from '@/components/pages/CareersPageClient';
 
-export const metadata: Metadata = {
-  title: "Careers at i-Cronus | Join Our Engineering Team",
-  description:
-    "Join our high-rigor, distributed engineering practice. We are hiring senior systems developers, AI platform engineers, database specialists, and cloud architects.",
-  keywords: [
-    "i-Cronus careers",
-    "systems developer jobs",
-    "senior Go engineer remote",
-    "AI platform engineer jobs",
-    "cloud devops careers",
-  ],
+export const metadata = {
+  title: 'Careers | i-Cronus Enterprise',
+  description: 'Join engineers building AI platforms, enterprise software, cloud systems, automation solutions and modern digital experiences.',
 };
 
 export default function CareersPage() {

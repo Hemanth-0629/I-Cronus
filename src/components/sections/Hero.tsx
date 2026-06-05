@@ -53,6 +53,12 @@ export default function Hero() {
                 Book Architecture Review
               </Link>
             </div>
+            
+            <div className="flex items-center gap-4 mb-16">
+              <Link href="https://erp.ecomsmart.world/form-builder/d11ad164-b3f5-4ebf-a2f3-e94cc3cc07c2-1779094293" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-[#00D4FF] hover:text-white uppercase tracking-widest border border-[#00D4FF]/30 hover:border-white px-5 py-2.5 rounded transition-all flex items-center gap-2">
+                Apply For Internships <ArrowRight size={14} />
+              </Link>
+            </div>
 
             {/* Proof Strip */}
             <div className="pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-4">
